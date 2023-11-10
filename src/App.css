@@ -8,7 +8,7 @@ html, body{
   width: 100vw;
   height: 100vh;
   overflow: hidden;
-  background-color: #0f0f0f;
+  background: #0f0f0f;
 }
 
 .container{
@@ -32,5 +32,31 @@ html, body{
   height: 5px;
   background: #fff;
   border-radius: 100%;
-  transition:all 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+  transition:all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.gallery{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  overflow:hidden;
+}
+
+.gallery-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 20px;
+  height: 400px;
+  margin: 0 5px;
+  background: #000;
+  overflow:hidden;
+  transition: flex 1s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+.gallery-item img{
+  width:400px;
+  height:100%;
+  object-fit: contain;
+  transform: scale(2);
 }
