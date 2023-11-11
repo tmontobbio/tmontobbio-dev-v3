@@ -1,0 +1,32 @@
+#nav {
+    width: 100%;
+    min-height: 100px;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+    position: sticky;
+    top: 0;
+}
+
+.nav-btn {
+    margin: 0 .9rem 0 .9rem;
+}
+
+.logo-wrapper,
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+.btn-wrapper {
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo-wrapper {
+    flex-direction: column;
+}
