@@ -1,4 +1,4 @@
-@keyframes morph {
+/* @keyframes morph {
     0% {
         border-radius: 20%;
     }
@@ -17,6 +17,28 @@
 
     100% {
         border-radius: 20%;
+    }
+} */
+
+@keyframes morph {
+    0% {
+        border-radius: 22% 53% 18% 42% / 50% 33% 27% 26%;
+    }
+
+    20% {
+        border-radius: 36% 19% 24% 42% / 24% 51% 13% 47%;
+    }
+
+    40% {
+        border-radius: 64% 9% 52% 6% / 55% 51% 37% 5%;
+    }
+
+    60% {
+        border-radius: 64% 9% 35% 87% / 13% 31% 51% 68%;
+    }
+
+    100% {
+        border-radius: 22% 53% 18% 42% / 50% 33% 27% 26%;
     }
 }
 
