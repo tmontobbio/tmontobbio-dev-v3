@@ -1,4 +1,4 @@
- /* @keyframes morph {
+ @keyframes blob {
 
      0% {
          border-radius: 58% 20% 30% 48% / 14% 41% 12% 44%;
@@ -92,7 +92,7 @@
      background-image: url("/tyler.png");
      background-size: contain;
      border: 3px solid #2d2e32;
-     animation: 15s morph infinite;
+     animation: 15s blob infinite;
  }
 
  .icon {
@@ -115,4 +115,4 @@
  .tech-stack-header {
      font-family: Mulish, sans-serif !important;
      font-weight: 600;
- } */
+ }
