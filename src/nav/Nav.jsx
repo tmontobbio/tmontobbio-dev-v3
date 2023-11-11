@@ -8,19 +8,19 @@ export default function Nav() {
                 <h1>tmontobbio.dev</h1>
             </div>
             <div className="btn-wrapper">
-                <Link className="nav-btn" to="home" spy={true} smooth={true} duration={700}>
-                    <h3>Home</h3>
-                </Link>
-                <Link className="nav-btn" to="about" spy={true} smooth={true} duration={700}>
-                    <h3>About</h3>
-                </Link>
-                <Link className="nav-btn" to="projects" spy={true} smooth={true} duration={700}>
-                    <h3>Projects</h3>
-                </Link>
-                <Link className="nav-btn" to="contact" spy={true} smooth={true} duration={700}>
-                    <h3>Contact</h3>
-                </Link>
+                <a href="#top">
+                    <h3 className="nav-btn">Home</h3>
+                </a>
+                <a href="#about">
+                    <h3 className="nav-btn">About</h3>
+                </a>
+                <a href="#projects">
+                    <h3 className="nav-btn">Projects</h3>
+                </a>
+                <a href="#contact">
+                    <h3 className="nav-btn">Contact</h3>
+                </a>
             </div>
-        </div>
+        </div >
     )
 }

@@ -1,4 +1,76 @@
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+        border-radius: 20%;
+
+    }
+
+    20% {
+        transform: rotateZ(45deg);
+        border-radius: 50%;
+    }
+
+    40% {
+        transform: rotateZ(90deg);
+        border-radius: 20%;
+    }
+
+    60% {
+        transform: rotateZ(45deg);
+        border-radius: 50%;
+    }
+
+    100% {
+        transform: rotateZ(0deg);
+        border-radius: 20%;
+    }
+}
+
 #home {
     width: 100%;
     height: 100vh;
+}
+
+.greeting {
+    width: 1000px;
+    height: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -65%);
+    transform-origin: center;
+    border: 1px solid #2d2e32;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.greeting-text {
+    width: 550px;
+    height: 400px;
+}
+
+.greeting-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 7.5ch;
+    font-weight: 800;
+    line-height: 1.6ch;
+    padding: 1rem 0 1rem 0;
+}
+
+.greeting-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5ch;
+    font-weight: 400;
+}
+
+.greeting-img {
+    width: 350px;
+    height: 350px;
+    float: right;
+    background-image: url("../assets/tyler.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid #2d2e32;
+    animation: 10s rotate infinite;
 }
