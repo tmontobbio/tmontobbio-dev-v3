@@ -1,4 +1,3 @@
-import { Link } from "react-scroll"
 import "./Nav.css"
 
 export default function Nav() {
