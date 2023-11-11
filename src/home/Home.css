@@ -1,4 +1,4 @@
-@keyframes rotate {
+@keyframes morph {
     0% {
         border-radius: 20%;
 
@@ -67,21 +67,25 @@
     float: right;
     background-image: url("/tyler.png");
     background-size: contain;
-    background-repeat: no-repeat;
     border: 3px solid #2d2e32;
-    animation: 9s rotate infinite;
+    animation: 9s morph infinite;
 }
 
 .icon {
     margin: 30px 20px 0 0;
-    height: 32px !important;
-    width: 32px !important;
-    align-self: auto;
+    height: 32px;
+    width: 32px;
 }
+
 
 .tech-stack {
     display: flex;
+    align-items: center;
     justify-content: space-between;
+}
+
+.tech-stack svg {
+    transform: translateY(-40%);
 }
 
 .tech-stack-header {

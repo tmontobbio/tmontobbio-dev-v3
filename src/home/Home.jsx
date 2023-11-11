@@ -1,12 +1,15 @@
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi"
+import { BiLogoGmail } from "react-icons/bi";
+
 import JavaScript from "../img/javascript.svg?react";
-import NodeJS from "../img/nodejs.svg?react";
-import PostGreSQL from "../img/postgresql.svg?react";
-import Rails from "../img/rails.svg?react";
 import React from "../img/react.svg?react";
 import Redux from "../img/redux.svg?react";
+import NodeJS from "../img/nodejs.svg?react";
 import Ruby from "../img/ruby.svg?react";
+import Rails from "../img/rails.svg?react";
+import PostGreSQL from "../img/postgresql.svg?react";
+
 import "./Home.css"
 
 export default function Home() {
@@ -16,7 +19,17 @@ export default function Home() {
                 <div className="greeting-text">
                     <h1>Full-Stack React Developer</h1>
                     <p>Hi I'm Tyler, a passionate web developer from the San Francisco bay area.</p>
-                    <div><FiGithub className="icon" /><PiLinkedinLogoBold className="icon" /></div>
+                    <div>
+                        <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
+                            <FiGithub className="icon" />
+                        </a>
+                        <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
+                            <PiLinkedinLogoBold className="icon" />
+                        </a>
+                        <a href="mailto:tylermontobbio@gmail.com" target="_blank" rel="noreferrer">
+                            <BiLogoGmail className="icon" />
+                        </a>
+                    </div>
                     <div className="tech-stack">
                         <p className="tech-stack-header">Tech Stack  | </p>
                         <JavaScript className="icon" />
@@ -26,11 +39,10 @@ export default function Home() {
                         <Ruby className="icon" />
                         <Rails className="icon" />
                         <PostGreSQL className="icon" />
-
                     </div>
                 </div>
                 <div className="greeting-img" />
             </div>
-        </div>
+        </div >
     )
 }
