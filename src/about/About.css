@@ -1,3 +1,10 @@
+@keyframes rotate {
+    100% {
+            -webkit-transform: rotate(1turn);
+            transform: rotate(1turn);
+        }
+}
+
 #about {
     background-color: #fff;
 }
@@ -19,6 +26,7 @@
     border-radius: 30px 25px 30px 25px / 30px 25px 30px 25px;
     height: 345px;
     width: 400px;
+    z-index: 1;
 }
 
 #description{
@@ -28,4 +36,16 @@
 
 #description p{
     line-height: 1.5rem;
+}
+
+#web-dev{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:#f9f9f9;
+    background-image: url("./web-dev.svg");
+    /* animation: 10s rotate linear infinite; */
+    width:100px;
+    height:100px;
+    border-radius: 50%;
 }

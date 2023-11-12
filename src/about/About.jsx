@@ -4,7 +4,9 @@ export default function About() {
     return (
         <div id="about">
             <div className="container">
-                <div id="laptop" />
+                <div id="laptop">
+                    <div id="web-dev">:3</div>
+                </div>
                 <div id="description">
                     <h3>about me</h3>
                     <h4>A highly motivated Front-end Developer from the North Bay 📍</h4>
