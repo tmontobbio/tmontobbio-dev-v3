@@ -6,7 +6,7 @@
     width: 1000px;
     height: 600px;
     margin:auto;
-    padding:150px 0 150px 0;
+    padding:130px 0 130px 0;
     display:flex;
     justify-content: space-between;
 }
@@ -15,13 +15,17 @@
     background-image: url("/laptop.png");
     background-size: contain;
     background-repeat: no-repeat;
-    border-radius: 25px 25px 25px 25px / 25px 25px 25px 25px;
-    height:286px;
-    width:400px;
+    background-position: center;
+    border-radius: 30px 25px 30px 25px / 30px 25px 30px 25px;
+    height: 345px;
+    width: 400px;
 }
 
 #description{
     width:500px;
-    height: 286px;
+    height: 345px;
 }
 
+#description p{
+    line-height: 1.5rem;
+}
