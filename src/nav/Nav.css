@@ -9,19 +9,16 @@
     position: sticky;
     top: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, .09);
-    background-color: rgb(255, 255, 255, 1);
+    background-color: #fff;
     z-index: 1;
 }
 
-#nav ul {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-}
-
-#nav h1,
-h3 {
-    font-family: 'Poppins', sans-serif;
+#nav h3 {
+    color: #2d2e32;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .23s;
+    font-size:1rem;
 }
 
 #nav h1 {

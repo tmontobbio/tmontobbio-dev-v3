@@ -48,6 +48,7 @@
  #home {
      width: 100%;
      height: 100vh;
+     background-color: #f9f9f9;
  }
 
  .greeting {
@@ -55,7 +56,7 @@
      height: 600px;
      top: 50%;
      left: 50%;
-     transform: translate(-50%, -65%);
+     transform: translate(-50%, -55%);
      transform-origin: center;
      position: relative;
      display: flex;
@@ -72,7 +73,6 @@
  }
 
  .greeting-text h1 {
-     font-family: 'Poppins', sans-serif;
      font-size: 7.5ch;
      font-weight: 800;
      line-height: 1.6ch;
@@ -80,7 +80,6 @@
  }
 
  .greeting-text p {
-     font-family: 'Poppins', sans-serif;
      font-size: 2.5ch;
      font-weight: 400;
  }

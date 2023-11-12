@@ -24,3 +24,22 @@ a {
 p {
   color: #555;
 }
+
+h1, h2, h3, h4, p, a{
+  font-family: 'Poppins', sans-serif;
+}
+
+h3{
+  font-size: 1.2rem;
+  color: #147efb;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+h4{
+      color: #2d2e32;
+      font-size: 1.7rem;
+      line-height: 1.1;
+      margin-bottom: 2rem;
+}

@@ -18,7 +18,7 @@ export default function Home() {
             <div className="greeting">
                 <div className="greeting-text">
                     <h1>Full-Stack React Developer</h1>
-                    <p>Hi I'm Tyler, a passionate web developer from the San Francisco bay area.</p>
+                    <p>Hi I&apos;m Tyler, a passionate web developer from the San Francisco bay area.</p>
                     <div>
                         <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
                             <FiGithub className="icon" />
