@@ -1,3 +1,7 @@
+/*# # # # # # # # GENERAL CSS # # # # # # # # */
+/*# # # # # # # # GENERAL CSS # # # # # # # # */
+/*# # # # # # # # GENERAL CSS # # # # # # # # */
+
 * {
   margin: 0;
   padding: 0;
@@ -49,4 +53,291 @@ h5{
     font-size: 1.2rem;
     line-height: 1.1;
     margin-bottom: .25rem;
+}
+
+/*# # # # # # # # NAV # # # # # # # # */
+/*# # # # # # # # NAV # # # # # # # # */
+/*# # # # # # # # NAV # # # # # # # # */
+
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 75px;
+  height: 5vh;
+  padding: 0 3rem 0 3rem;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
+  background-color: #fff;
+  z-index: 1;
+}
+
+#nav h3 {
+  color: #2d2e32;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all .23s;
+  font-size: 1rem;
+}
+
+#nav h1 {
+  font-weight: 700;
+  font-size: 5ch;
+}
+
+
+.nav-btn {
+  margin: 0 .7rem 0 .7rem;
+}
+
+.logo-wrapper,
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.btn-wrapper {
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-wrapper {
+  flex-direction: column;
+}
+
+/*# # # # # # # # HOME # # # # # # # # */
+/*# # # # # # # # HOME # # # # # # # # */
+/*# # # # # # # # HOME # # # # # # # # */
+
+ @keyframes blob {
+
+   0% {
+     border-radius: 58% 20% 30% 48% / 14% 41% 12% 44%;
+   }
+
+   10% {
+     border-radius: 44% 35% 26% 38% / 18% 31% 33% 38%;
+   }
+
+   20% {
+     border-radius: 26% 44% 14% 51% / 43% 15% 48% 25%;
+   }
+
+   30% {
+     border-radius: 11% 44% 26% 37% / 50% 8% 32% 20%;
+   }
+
+   40% {
+     border-radius: 29% 44% 41% 52% / 36% 26% 32% 32%;
+   }
+
+   50% {
+     border-radius: 18% 27% 24% 29% / 19% 13% 20% 14%;
+   }
+
+   60% {
+     border-radius: 39% 42% 39% 55% / 40% 13% 49% 14%;
+   }
+
+   70% {
+     border-radius: 29% 36% 37% 43% / 22% 43% 29% 33%;
+   }
+
+   80% {
+     border-radius: 61% 36% 37% 61% / 31% 65% 29% 56%;
+   }
+
+   90% {
+     border-radius: 61% 36% 14% 11% / 31% 30% 29% 56%;
+   }
+
+   100% {
+     border-radius: 58% 20% 30% 48% / 14% 41% 12% 44%;
+   }
+ }
+
+ #home {
+   width: 100%;
+   height: 100vh;
+   background-color: #f9f9f9;
+ }
+
+ .greeting {
+   width: 1000px;
+   height: 600px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -55%);
+   transform-origin: center;
+   position: relative;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+ }
+
+ .greeting-text {
+   width: 550px;
+   height: 400px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+
+ .greeting-text h1 {
+   font-size: 7.5ch;
+   font-weight: 800;
+   line-height: 1.6ch;
+   padding: 1rem 0 1rem 0;
+ }
+
+ .greeting-text p {
+   font-size: 2.5ch;
+   font-weight: 400;
+ }
+
+ .greeting-img {
+   width: 350px;
+   height: 350px;
+   float: right;
+   background-image: url("/tyler.png");
+   background-size: contain;
+   border: 3px solid #2d2e32;
+   animation: 15s blob infinite;
+ }
+
+ .icon {
+   margin: 30px 20px 0 0;
+   height: 32px;
+   width: 32px;
+ }
+
+
+ .tech-stack {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+
+ .tech-stack svg {
+   transform: translateY(-40%);
+ }
+
+ .tech-stack-header {
+   font-family: Mulish, sans-serif !important;
+   font-weight: 600;
+ }
+
+/*# # # # # # # # ABOUT # # # # # # # # */
+/*# # # # # # # # ABOUT # # # # # # # # */
+/*# # # # # # # # ABOUT # # # # # # # # */
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
+#about {
+  background-color: #fff;
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  margin: auto;
+  padding: 130px 0 130px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#laptop {
+  background-image: url("/laptop.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  border-radius: 30px 25px 30px 25px / 30px 25px 30px 25px;
+  height: 345px;
+  width: 400px;
+  z-index: 1;
+}
+
+#description {
+  width: 500px;
+  height: 345px;
+}
+
+#description p {
+  line-height: 1.5rem;
+}
+
+#web-dev {
+  animation: 10s rotate linear infinite;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 40px;
+  border-radius: 50%;
+}
+
+/*# # # # # # # # PROJECTS # # # # # # # # */
+/*# # # # # # # # PROJECTS # # # # # # # # */
+/*# # # # # # # # PROJECTS # # # # # # # # */
+
+#projects {
+  width: 100%;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+/*# # # # # # # # CONTACT # # # # # # # # */
+/*# # # # # # # # CONTACT # # # # # # # # */
+/*# # # # # # # # CONTACT # # # # # # # # */
+
+#contact {
+  width: 100%;
+  padding: 7rem 0 7rem 0;
+  background-color: #fff;
+}
+
+#contact-title {
+  margin: auto;
+  max-width: 60rem;
+}
+
+#contact-icons {
+  display: flex;
+  margin: auto;
+  gap: 8rem;
+  max-width: 60rem;
+  margin-top: 6rem;
+}
+
+.icon-box {
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.lower-icon {
+  width: 4rem;
+  height: 4rem;
+  margin: 0;
+}
+
+.icon-box span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  color: #147efb;
+  height: 5rem;
+  width: 5rem;
 }

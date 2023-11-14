@@ -1,15 +1,15 @@
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi"
 
-import JavaScript from "../img/javascript.svg?react";
-import React from "../img/react.svg?react";
-import Redux from "../img/redux.svg?react";
-import NodeJS from "../img/nodejs.svg?react";
-import Ruby from "../img/ruby.svg?react";
-import Rails from "../img/rails.svg?react";
-import PostGreSQL from "../img/postgresql.svg?react";
+import JavaScript from "../../public/javascript.svg?react";
+import React from "../../public/react.svg?react";
+import Redux from "../../public//redux.svg?react";
+import NodeJS from "../../public/nodejs.svg?react";
+import Ruby from "../../public/ruby.svg?react";
+import Rails from "../../public/rails.svg?react";
+import PostGreSQL from "../../public/postgresql.svg?react";
 
-import "./Home.css"
+import "../App.css"
 
 export default function Home() {
     return (

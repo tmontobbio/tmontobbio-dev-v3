@@ -1,4 +1,4 @@
-import "./Projects.css"
+import "../App.css"
 
 export default function Projects() {
     return (

@@ -1,7 +1,7 @@
 import { BiLogoGmail } from "react-icons/bi";
 import { AiOutlineHome } from "react-icons/ai";
 
-import "./Contact.css"
+import "../App.css"
 
 export default function Contact() {
     return (
