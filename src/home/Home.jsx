@@ -1,6 +1,5 @@
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi"
-import { BiLogoGmail } from "react-icons/bi";
 
 import JavaScript from "../img/javascript.svg?react";
 import React from "../img/react.svg?react";
@@ -25,9 +24,6 @@ export default function Home() {
                         </a>
                         <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
                             <PiLinkedinLogoBold className="icon" />
-                        </a>
-                        <a href="mailto:tylermontobbio@gmail.com" target="_blank" rel="noreferrer">
-                            <BiLogoGmail className="icon" />
                         </a>
                     </div>
                     <div className="tech-stack">
