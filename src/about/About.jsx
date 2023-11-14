@@ -5,7 +5,9 @@ export default function About() {
         <div id="about">
             <div className="container">
                 <div id="laptop">
-                    <div id="web-dev">:3</div>
+                    <span>
+                        <img src="/web-dev.svg" id="web-dev" />
+                    </span>
                 </div>
                 <div id="description">
                     <h3>about me</h3>
