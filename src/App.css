@@ -255,6 +255,12 @@ h5{
   justify-content: space-between;
 }
 
+/* .container {
+  margin: 0 auto;
+  max-width: 107rem;
+  padding: 0 4rem;
+} */
+
 #laptop {
   background-image: url("/laptop.jpg");
   background-size: contain;
