@@ -2,8 +2,8 @@ import "../App.css"
 
 export default function About() {
     return (
-        <div id="about">
-            <div className="container">
+        <div className="container">
+            <div id="about">
                 <div id="laptop">
                     <span>
                         <img src="/web-dev.svg" id="web-dev" />
