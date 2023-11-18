@@ -1,4 +1,6 @@
-import Project from "./project/Project.jsx"
+// import Project from "./project/Project.jsx"
+
+import { FiGithub } from "react-icons/fi";
 
 import montobbioDesign from "../img/montobbio-design.png"
 import julianCLogo from "../img/julianc-logo.png"
@@ -50,8 +52,19 @@ export default function Projects() {
                         <img src={montobbioDesign} alt="montobbio design thumbnail" />
                     </a>
                     <div className="txt-wrapper">
-                        <h1>Montobbio Design</h1>
+                        <h5>Montobbio Design</h5>
+                        <p>(2023)</p>
                         <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
+                        <div className="links">
+                            <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
+                                Code
+                                <FiGithub className="icon" />
+                            </a>
+                            <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
+                                Code
+                                <FiGithub className="icon" />
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="project project-reversed">
@@ -59,7 +72,8 @@ export default function Projects() {
                         <img src={montobbioDesign} alt="montobbio design thumbnail" />
                     </a>
                     <div className="txt-wrapper">
-                        <h1>Montobbio Design</h1>
+                        <h5>Montobbio Design</h5>
+                        <p>(2023)</p>
                         <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
                     </div>
                 </div>
@@ -68,7 +82,8 @@ export default function Projects() {
                         <img src={montobbioDesign} alt="montobbio design thumbnail" />
                     </a>
                     <div className="txt-wrapper">
-                        <h1>Montobbio Design</h1>
+                        <h5>Montobbio Design</h5>
+                        <p>(2023)</p>
                         <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
                     </div>
                 </div>
@@ -77,7 +92,8 @@ export default function Projects() {
                         <img src={montobbioDesign} alt="montobbio design thumbnail" />
                     </a>
                     <div className="txt-wrapper">
-                        <h1>Montobbio Design</h1>
+                        <h5>Montobbio Design</h5>
+                        <p>(2023)</p>
                         <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
                     </div>
                 </div>
