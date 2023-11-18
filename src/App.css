@@ -283,7 +283,7 @@ h5 {
   position: absolute;
   width: 100px;
   height: 100px;
-  bottom: 40px;
+  bottom: 55px;
   border-radius: 50%;
 }
 
@@ -302,7 +302,26 @@ h5 {
 }
 
 #projects img {
-  width: 25rem
+  height: 100%;
+}
+
+.project {
+  width: 70rem;
+  height: 25rem;
+  display: flex;
+  padding: 1.2rem;
+  margin: 3rem 0 3rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  border-radius: 1.2rem;
+  gap: 10rem;
+}
+
+.project-reversed {
+  flex-direction: row-reverse;
+}
+
+.project-forward {
+  flex-direction: row;
 }
 
 /*# # # # # # # # CONTACT # # # # # # # # */

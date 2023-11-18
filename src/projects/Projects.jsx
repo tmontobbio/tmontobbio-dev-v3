@@ -40,11 +40,47 @@ export default function Projects() {
             <div className="container">
                 <h3>PORTFOLIO</h3>
                 <h4>Each of my projects showcases a different aspect of my ability 🛠️</h4>
-                {sites.map((s) => {
+                {/* {sites.map((s) => {
                     return (
                         <Project key={s.title} title={s.title} img={s.img} description={s.description} url={s.url} />
                     )
-                })}
+                })} */}
+                <div className="project">
+                    <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
+                        <img src={montobbioDesign} alt="montobbio design thumbnail" />
+                    </a>
+                    <div className="txt-wrapper">
+                        <h1>Montobbio Design</h1>
+                        <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
+                    </div>
+                </div>
+                <div className="project project-reversed">
+                    <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
+                        <img src={montobbioDesign} alt="montobbio design thumbnail" />
+                    </a>
+                    <div className="txt-wrapper">
+                        <h1>Montobbio Design</h1>
+                        <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
+                    </div>
+                </div>
+                <div className="project">
+                    <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
+                        <img src={montobbioDesign} alt="montobbio design thumbnail" />
+                    </a>
+                    <div className="txt-wrapper">
+                        <h1>Montobbio Design</h1>
+                        <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
+                    </div>
+                </div>
+                <div className="project project-reversed">
+                    <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
+                        <img src={montobbioDesign} alt="montobbio design thumbnail" />
+                    </a>
+                    <div className="txt-wrapper">
+                        <h1>Montobbio Design</h1>
+                        <p>The very website you're visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there's no frills, however I hope it shows how I've learned to structure my work over time.</p>
+                    </div>
+                </div>
             </div>
         </div>
     )
