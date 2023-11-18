@@ -37,11 +37,15 @@ export default function Projects() {
 
     return (
         <div id="projects">
-            {sites.map((s) => {
-                return (
-                    <Project key={s.title} title={s.title} img={s.img} description={s.description} url={s.url} />
-                )
-            })}
+            <div className="container">
+                <h3>PORTFOLIO</h3>
+                <h4>Each of my projects showcases a different aspect of my ability 🛠️</h4>
+                {sites.map((s) => {
+                    return (
+                        <Project key={s.title} title={s.title} img={s.img} description={s.description} url={s.url} />
+                    )
+                })}
+            </div>
         </div>
     )
 }
