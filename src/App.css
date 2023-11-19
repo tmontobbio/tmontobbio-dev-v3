@@ -135,7 +135,7 @@ h5 {
 
 /* Project Button effects */
 
-.btn:hover {
+.btn:hover, .btn text:hover {
   animation: scale-up .2s forwards;
   color:#147efb;
 }
@@ -349,6 +349,9 @@ h5 {
 
 .txt-wrapper {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .links {
