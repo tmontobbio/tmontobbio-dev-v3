@@ -117,7 +117,7 @@ h5 {
 
 @keyframes scale-up {
   100% {
-    scale: 1.5
+    scale: 1.2
   }
 }
 
@@ -127,12 +127,17 @@ h5 {
   }
 }
 
-.scaled-up {
-  animation: scale-up .5s forwards;
+/* Tech Stack effects */
+
+.ts:hover{
+  animation: scale-up .2s forwards;
 }
 
-.scaled-down {
-  animation: scale-down .5s forwards;
+/* Project Button effects */
+
+.btn:hover {
+  animation: scale-up .2s forwards;
+  color:#147efb;
 }
 
 /*# # # # # # # # NAV # # # # # # # # */

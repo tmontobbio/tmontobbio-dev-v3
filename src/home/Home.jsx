@@ -21,21 +21,21 @@ export default function Home() {
                         <p>Hi I&apos;m Tyler, a passionate web developer from the San Francisco bay area.</p>
                         <div>
                             <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
-                                <FiGithub className="icon" />
+                                <FiGithub className="icon btn" />
                             </a>
                             <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
-                                <PiLinkedinLogoBold className="icon" />
+                                <PiLinkedinLogoBold className="icon btn" />
                             </a>
                         </div>
                         <div className="btn-container">
                             <p className="tech-stack-header">Tech Stack  | </p>
-                            <JavaScript className="icon" />
-                            <React className="icon" />
-                            <Redux className="icon" />
-                            <NodeJS className="icon" />
-                            <Ruby className="icon" />
-                            <Rails className="icon" />
-                            <PostGreSQL className="icon" />
+                            <JavaScript className="icon ts" />
+                            <React className="icon ts" />
+                            <Redux className="icon ts" />
+                            <NodeJS className="icon ts" />
+                            <Ruby className="icon ts" />
+                            <Rails className="icon ts" />
+                            <PostGreSQL className="icon ts" />
                         </div>
                     </div>
                     <div className="greeting-img" />
