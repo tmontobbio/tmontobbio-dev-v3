@@ -243,13 +243,13 @@ h5 {
 }
 
 
-.tech-stack {
+.btn-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.tech-stack svg {
+.btn-container svg {
   transform: translateY(-40%);
 }
 
@@ -351,6 +351,20 @@ h5 {
   flex-direction: row;
   justify-content: center;
   gap: 5ch
+}
+
+.project-btn{
+  gap:1ch;
+  font-size: 1.75ch;
+  font-weight: 600;
+}
+
+.links{
+  margin-top:1ch;
+}
+
+.links p{
+  color: #2d2e32;
 }
 
 /*# # # # # # # # CONTACT # # # # # # # # */

@@ -28,7 +28,7 @@ export default function Contact() {
                     </span>
                     <div className="contact-info">
                         <h5>Mail</h5>
-                        <p>San Francisco</p>
+                        <p>tylermontobbio@gmail.com</p>
                     </div>
                 </div>
             </div>

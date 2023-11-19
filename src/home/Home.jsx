@@ -27,7 +27,7 @@ export default function Home() {
                                 <PiLinkedinLogoBold className="icon" />
                             </a>
                         </div>
-                        <div className="tech-stack">
+                        <div className="btn-container">
                             <p className="tech-stack-header">Tech Stack  | </p>
                             <JavaScript className="icon" />
                             <React className="icon" />
