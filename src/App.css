@@ -18,6 +18,10 @@ body {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
 
 #home h1,
 a {
@@ -341,6 +345,14 @@ h5 {
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   border-radius: 1.2rem;
   gap: 10rem;
+}
+
+.project p{
+  font-size: 2.3ch;
+}
+
+.project img{
+  box-shadow: 0 0 10px rgba(0, 0, 0, .09);
 }
 
 .project-reversed {
