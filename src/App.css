@@ -68,7 +68,7 @@ h5 {
 
 .container {
   margin: 0 auto;
-  max-width: 80rem;
+  max-width: 85rem;
   padding: 0 4rem;
 }
 
@@ -140,7 +140,7 @@ h5 {
 /* Project Button effects */
 
 .btn:hover, .btn text:hover {
-  animation: scale-up .2s forwards;
+  animation: scale-up .1s forwards;
   color:#147efb;
 }
 
@@ -241,6 +241,7 @@ h5 {
   float: right;
   background-image: url("/tyler.png");
   background-size: contain;
+  background-repeat: no-repeat;
   border: 3px solid #2d2e32;
   animation: 15s blob infinite;
 }
@@ -313,7 +314,7 @@ h5 {
   position: absolute;
   width: 100px;
   height: 100px;
-  bottom: 55px;
+  bottom: 40px;
   border-radius: 50%;
 }
 
@@ -432,4 +433,78 @@ h5 {
   color: #147efb;
   height: 5rem;
   width: 5rem;
+}
+
+/*# # # # # # # # CONTACT # # # # # # # # */
+/*# # # # # # # # CONTACT # # # # # # # # */
+/*# # # # # # # # CONTACT # # # # # # # # */
+
+@media (max-width: 1440px) {
+
+/*# # # # # # # # HOME # # # # # # # # */
+  /*# # # # # # # # HOME # # # # # # # # */
+  /*# # # # # # # # HOME # # # # # # # # */
+
+  #home {
+    background-color: #f9f9f9;
+  }
+
+  .greeting {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 40px;
+  }
+
+  .greeting-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .greeting-text h1 {
+    font-size: 7.5ch;
+    font-weight: 800;
+    line-height: 1.6ch;
+    padding: 1rem 0 1rem 0;
+  }
+
+  .greeting-text p {
+    font-size: 2.5ch;
+    font-weight: 400;
+  }
+
+  .greeting-img {
+    width: 100%;
+    height: 42%;
+    float: right;
+    background-image: url("/tyler.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 3px solid #2d2e32;
+    animation: 15s blob infinite;
+  }
+
+  .icon {
+    margin: 30px 20px 0 0;
+    height: 32px;
+    width: 32px;
+  }
+
+
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .btn-container svg {
+    transform: translateY(-40%);
+  }
+
+  .tech-stack-header {
+    font-family: Mulish, sans-serif !important;
+    font-weight: 600;
+  }
+
 }
