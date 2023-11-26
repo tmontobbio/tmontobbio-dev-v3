@@ -452,6 +452,7 @@ h5 {
   .greeting {
     flex-direction: column-reverse;
     justify-content: flex-end;
+    padding-top: 3ch;
     gap: 40px;
   }
 
