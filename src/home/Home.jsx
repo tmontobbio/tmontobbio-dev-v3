@@ -19,14 +19,6 @@ export default function Home() {
                     <div className="greeting-text">
                         <h1>Full-Stack React Developer</h1>
                         <p>Hi I&apos;m Tyler, a passionate web developer from the San Francisco bay area.</p>
-                        <div>
-                            <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
-                                <FiGithub className="icon btn" />
-                            </a>
-                            <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
-                                <PiLinkedinLogoBold className="icon btn" />
-                            </a>
-                        </div>
                         <div className="btn-container">
                             <p className="tech-stack-header">Tech Stack  | </p>
                             <JavaScript className="icon ts" />
@@ -36,6 +28,14 @@ export default function Home() {
                             <Ruby className="icon ts" />
                             <Rails className="icon ts" />
                             <PostGreSQL className="icon ts" />
+                        </div>
+                        <div>
+                            <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
+                                <FiGithub className="icon btn" />
+                            </a>
+                            <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
+                                <PiLinkedinLogoBold className="icon btn" />
+                            </a>
                         </div>
                     </div>
                     <div className="greeting-img" />
