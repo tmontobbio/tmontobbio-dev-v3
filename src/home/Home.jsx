@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <div id="home">
             <div className="container">
-                <div className="greeting">
+                <div id="greeting">
                     <div className="greeting-text">
                         <h1>Full-Stack React Developer</h1>
                         <p>Hi I&apos;m Tyler, a passionate web developer from the San Francisco bay area.</p>
@@ -38,7 +38,7 @@ export default function Home() {
                             </a>
                         </div>
                     </div>
-                    <div className="greeting-img" />
+                    <div id="greeting-img" />
                 </div>
             </div>
         </div>
