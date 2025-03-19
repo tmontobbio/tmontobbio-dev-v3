@@ -275,29 +275,35 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: auto;
   height: 100vh;
   gap: 2vw;
-}
-
-#laptop {
-  display: flex;
-  background-image: url("/laptop.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 200%;
-  height: 30%;
 }
 
 #description p {
   line-height: 1.5rem;
 }
 
+#laptop {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  background-image: url("/laptop.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: clamp(541px, 100%, 400px);
+  height: clamp(360px, 100%, 400px);
+}
+
 #web-dev {
+  grid-column: 1;
+  grid-row: 3;
   animation: 10s rotate linear infinite;
   width: 100px;
   height: 100px;
 }
+
 
 /*# # # # # # # # PROJECTS # # # # # # # # */
 /*# # # # # # # # PROJECTS # # # # # # # # */
