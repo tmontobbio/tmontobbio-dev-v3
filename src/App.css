@@ -207,7 +207,7 @@ h5 {
   height: 100vh;
 }
 
-.greeting-text {
+#greeting-text {
   width: 550px;
   height: 400px;
   display: flex;
@@ -215,14 +215,14 @@ h5 {
   justify-content: space-between;
 }
 
-.greeting-text h1 {
+#greeting-text h1 {
   font-size: 7.5ch;
   font-weight: 800;
   line-height: 1.6ch;
   padding: 1rem 0 1rem 0;
 }
 
-.greeting-text p {
+#greeting-text p {
   font-size: 2.5ch;
   font-weight: 400;
 }
@@ -273,35 +273,33 @@ h5 {
 
 #about {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding: auto;
   height: 100vh;
-  gap: 2vw;
-}
-
-#description p {
-  line-height: 1.5rem;
+  gap: 1vw;
 }
 
 #laptop {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: auto auto auto;
+  width: 33vw;
+  height: 30vh;
   background-image: url("/laptop.jpg");
-  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: clamp(541px, 100%, 400px);
-  height: clamp(360px, 100%, 400px);
+}
+
+#about-txt {
+  font-size: 2.25ch;
+  width: 30vw;
 }
 
 #web-dev {
-  grid-column: 1;
-  grid-row: 3;
+  position: relative;
+  top: 270px;
+  left: 20px;
   animation: 10s rotate linear infinite;
-  width: 100px;
-  height: 100px;
+  width: 8vw;
+  height: 8vh;
 }
 
 
