@@ -29,16 +29,14 @@ export default function Home() {
                 <Rails className="icon ts" />
                 <PostGreSQL className="icon ts" />
             </div>
-            <div>
+            <div className="btn-container">
                 <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
                     <FiGithub className="icon btn" />
                 </a>
                 <a href="https://www.linkedin.com/in/tmontobbio" target="_blank" rel="noreferrer">
                     <PiLinkedinLogoBold className="icon btn" />
                 </a>
-
             </div>
-            test
         </div>
     )
 }

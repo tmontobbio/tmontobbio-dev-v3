@@ -200,7 +200,7 @@ a {
 }
 
 #greeting-img {
-  border: 3px solid #2d2e32;
+  border: .4em solid #2d2e32;
   animation: 15s blob infinite;
   background-image: url("/tyler.png");
   width: 90vw;
@@ -209,25 +209,33 @@ a {
   background-repeat: no-repeat;
 }
 
+#greeting-text {
+  text-align: center;
+}
 
 #greeting-text h1 {
-  font-size: 7.5ch;
+  font-size: 3em;
   font-weight: 800;
-  line-height: 1.6ch;
-  padding: 1rem 1rem 1rem 1rem;
+  line-height: 1em;
+  padding: .8em .8em 0em .8em;
 }
 
 #greeting-text p {
-  font-size: 2.5ch;
+  font-size: 1.5em;
   font-weight: 400;
-  padding: 1rem 1rem 1rem 1rem;
+  padding: 1em 1em 1em 1em;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  padding: .5em 0em .5em 0em;
+  gap: .5em;
 }
 
 .icon {
-  flex-direction: row;
-  padding: 0 1ch 0 1ch;
-  height: 3rem;
-  width: 3rem;
+  height: 2.5em;
+  width: 2.5em;
 }
 
 .tech-stack-header {

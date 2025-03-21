@@ -12,9 +12,9 @@ function App() {
     <>
       {/* <Nav /> */}
       <Home />
-      {/* <About />
-      <Projects />
-      <Contact /> */}
+      {/* <About /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
     </>
   )
 }
