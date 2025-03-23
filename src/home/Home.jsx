@@ -13,7 +13,7 @@ import "../App.css"
 
 export default function Home() {
     return (
-        <div id="home">
+        <div id='home' className="container">
             <div id="greeting-img" />
             <span id="greeting-text">
                 <h1>Full-Stack React Developer</h1>

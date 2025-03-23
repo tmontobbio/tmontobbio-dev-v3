@@ -2,9 +2,9 @@ import "../App.css"
 
 export default function About() {
     return (
-        <div id="about">
+        <div id='about' className="container">
             <div id="laptop">
-                {/* <img src="/laptop.jpg" id="laptop-img" /> */}
+                <img id="laptop-img" />
                 <img src="/web-dev.svg" id="web-dev" />
             </div>
             <div id="about-txt" >

@@ -32,10 +32,16 @@ h5,
 p,
 a {
   font-family: 'Poppins', sans-serif;
+  padding: 1em 1em 1em 1em;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 6em;
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 4em;
   color: #147efb;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -44,14 +50,14 @@ h3 {
 
 h4 {
   color: #2d2e32;
-  font-size: 1.7rem;
+  font-size: 2em;
   line-height: 1.1;
   margin-bottom: 2rem;
 }
 
 h5 {
   color: #2d2e32;
-  font-size: 1.2rem;
+  font-size: 1em;
   line-height: 1.1;
   margin-bottom: .25rem;
 }
@@ -129,6 +135,15 @@ h5 {
   color: #147efb;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+}
+
 /*# # # # # # # # NAV # # # # # # # # */
 
 #nav {
@@ -150,11 +165,6 @@ h5 {
   display: none;
 }
 
-#nav h1 {
-  font-weight: 700;
-  font-size: 6em;
-}
-
 /*# # # # # # # # HOME # # # # # # # # */
 
 #home h1,
@@ -165,12 +175,6 @@ a {
 
 #home {
   background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
 }
 
 #greeting-img {
@@ -191,13 +195,12 @@ a {
   font-size: 4em;
   font-weight: 800;
   line-height: 1em;
-  padding: .8em .8em 0em .8em;
+  padding: .8em .8em 0em .8em !important;
 }
 
 #greeting-text p {
   font-size: 2.5em;
   font-weight: 400;
-  padding: 1em 1em 1em 1em;
 }
 
 .btn-container {
@@ -214,4 +217,34 @@ a {
 
 .tech-stack-header {
   display: none;
+}
+
+/*# # # # # # # # ABOUT # # # # # # # # */
+
+#about{
+  background-color: #fff;
+}
+
+#laptop {
+  background-image: url("/laptop.jpg");
+  width: 90vw;
+  /* height: 90vw; */
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#about-txt h3 {
+font-weight: 700;
+line-height: 1em;
+padding-top:0;
+padding-bottom: 0;
+}
+
+#about-txt h4{
+
+}
+
+#about-txt p{
+  font-size: 2.5em;
+  font-weight: 400;
 }
