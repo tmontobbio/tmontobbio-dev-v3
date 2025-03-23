@@ -32,7 +32,6 @@ h5,
 p,
 a {
   font-family: 'Poppins', sans-serif;
-  padding: 1em 1em 1em 1em;
 }
 
 h1 {
@@ -180,7 +179,7 @@ a {
 #greeting-img {
   border: .4em solid #2d2e32;
   animation: 15s blob infinite;
-  background-image: url("/tyler.png");
+  background-image: url("/tyler.jpg");
   width: 90vw;
   height: 90vw;
   background-size: contain;
@@ -201,6 +200,7 @@ a {
 #greeting-text p {
   font-size: 2.5em;
   font-weight: 400;
+  padding: 1em 1em 1em 1em;
 }
 
 .btn-container {
@@ -226,11 +226,17 @@ a {
 }
 
 #laptop {
-  background-image: url("/laptop.jpg");
+  display:flex;
+  align-items:flex-end;
+  background-image: url("/laptop2.jpg");
   width: 90vw;
-  /* height: 90vw; */
+  height: 90vw;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+#about-txt{
+  padding: 1em 1em 1em 1em;
 }
 
 #about-txt h3 {
@@ -240,11 +246,13 @@ padding-top:0;
 padding-bottom: 0;
 }
 
-#about-txt h4{
-
-}
-
 #about-txt p{
   font-size: 2.5em;
   font-weight: 400;
+}
+
+#web-dev{
+  animation: 10s rotate linear infinite;
+  width: 20em;
+  height:20em;
 }
