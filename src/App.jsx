@@ -13,7 +13,7 @@ function App() {
       <Nav />
       <Home />
       <About />
-      {/* <Projects /> */}
+      <Projects />
       <Contact />
     </>
   )

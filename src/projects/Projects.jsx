@@ -30,7 +30,7 @@ export default function Projects() {
                         <h5>Montobbio Design</h5>
                         <p>(2023)</p>
                     </span>
-                    <p>The very website you&apos;re visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there&apos;s no frills, however I hope it shows how I&apos;ve learned to structure my work over time.</p>
+                    <p>The website you&apos;re visiting now! I built this site as a portfolio to showcase my work.  I wanted to keep it simple and fun, so there&apos;s no frills, however I hope it shows how I&apos;ve learned to structure my work over time.</p>
                     <div className="links">
                         <a href="https://github.com/tmontobbio" target="_blank" rel="noreferrer">
                             <div className="btn-container project-btn btn">
