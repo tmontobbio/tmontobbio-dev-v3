@@ -120,6 +120,13 @@ h5 {
   }
 }
 
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
 /* Tech Stack effects */
 
 .ts:hover {
@@ -236,7 +243,7 @@ a {
 }
 
 #about-txt{
-  padding: 1em 1em 1em 1em;
+  padding: 3em 2em 3em 2em;
 }
 
 #about-txt h3 {
@@ -253,6 +260,6 @@ padding-bottom: 0;
 
 #web-dev{
   animation: 10s rotate linear infinite;
-  width: 20em;
-  height:20em;
+  width: 13em;
+  height:13em;
 }
