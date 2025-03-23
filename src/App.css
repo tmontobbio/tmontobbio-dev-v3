@@ -193,10 +193,10 @@ a {
   border: .4em solid #2d2e32;
   animation: 15s blob infinite;
   background-image: url("/tyler.jpg");
-  width: 90vw;
-  height: 90vw;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vw;
 }
 
 #greeting-text {
@@ -284,12 +284,11 @@ padding-bottom: 1em;
 }
 
 #montobbio-design{
-  background-color: #fff;
   background-image: url("src/img/montobbio-design2.png");
-  width: 100vw;
-  height: 100vw;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 90vw;
+  height: 90vw;
 }
 
 /*# # # # # # # # Contact # # # # # # # # */
