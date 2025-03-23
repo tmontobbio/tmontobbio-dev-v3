@@ -243,14 +243,18 @@ a {
 }
 
 #about-txt{
-  padding: 3em 2em 3em 2em;
+  padding: 2em 4em 2em 4em;
 }
 
 #about-txt h3 {
 font-weight: 700;
 line-height: 1em;
 padding-top:0;
-padding-bottom: 0;
+padding-bottom: 1em;
+}
+
+#about-txt h4{
+  padding-bottom:.25em;
 }
 
 #about-txt p{
