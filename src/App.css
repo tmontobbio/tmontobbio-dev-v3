@@ -20,10 +20,6 @@ body {
   width: 8px;
 }
 
-p {
-  color: #555;
-}
-
 h1,
 h2,
 h3,
@@ -32,6 +28,13 @@ h5,
 p,
 a {
   font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #555;
+  font-size:2.5em;
+  font-weight: 400;
+  padding: 1em 1em 1em 1em;
 }
 
 h1 {
@@ -204,12 +207,6 @@ a {
   padding: .8em .8em 0em .8em !important;
 }
 
-#greeting-text p {
-  font-size: 2.5em;
-  font-weight: 400;
-  padding: 1em 1em 1em 1em;
-}
-
 .btn-container {
   display: flex;
   flex-direction: row;
@@ -218,8 +215,8 @@ a {
 }
 
 .icon {
-  height: 3em;
-  width: 3em;
+  height: 5em;
+  width: 5em;
 }
 
 .tech-stack-header {
@@ -266,4 +263,38 @@ padding-bottom: 1em;
   animation: 10s rotate linear infinite;
   width: 13em;
   height:13em;
+}
+
+/*# # # # # # # # PROJECTS # # # # # # # # */
+
+#montobbio-design{
+  background-image: url("./img/montobbio-design2.jpg");
+  width: 90vw;
+  height: 90vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/*# # # # # # # # Contact # # # # # # # # */
+
+#contact-title{
+  text-align: center;
+}
+
+#contact-icons{
+display:flex ;
+flex-direction: row;
+justify-content: space-around;
+width:100vw
+}
+
+.icon-box{
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0em 2em 0em;
+}
+
+.icon {
+width:15ch;
+height:15ch;
 }

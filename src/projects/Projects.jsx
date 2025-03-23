@@ -23,7 +23,7 @@ export default function Projects() {
 
             <div className="project">
                 <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
-                    <img src={montobbioDesign} alt="montobbio design thumbnail" />
+                    <div id='montobbio-design' alt="montobbio design thumbnail" />
                 </a>
                 <div className="txt-wrapper">
                     <span>
@@ -42,7 +42,7 @@ export default function Projects() {
                 </div>
             </div>
 
-            <div className="project project-reversed">
+            {/* <div className="project project-reversed">
                 <a href="https://tmontobbio.dev/" target="_blank" rel="noreferrer">
                     <img src={montobbioDesign} alt="montobbio design thumbnail" />
                 </a>
@@ -103,7 +103,7 @@ export default function Projects() {
                         </a>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
