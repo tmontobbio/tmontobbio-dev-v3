@@ -277,8 +277,12 @@ padding-bottom: 1em;
 
 /*# # # # # # # # Contact # # # # # # # # */
 
-#contact-title{
-  text-align: center;
+#contact-title h3{
+  padding-left:1em;
+}
+
+#contact-title h4{
+  padding-left: 2em
 }
 
 #contact-icons{
@@ -299,6 +303,6 @@ width:100vw
 }
 
 .icon {
-width:15ch;
-height:15ch;
+width:10ch;
+height:10ch;
 }
