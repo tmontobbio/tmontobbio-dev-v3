@@ -16,7 +16,7 @@ export default function Home() {
         <div id='home' className="container">
             <div id="greeting-img" />
             <span id="greeting-text">
-                <h1>Full-Stack React Developer</h1>
+                <h1>Full-Stack Developer</h1>
                 <p>Hi I&apos;m Tyler, a passionate web developer from the San Francisco bay area.</p>
             </span>
             <div className="btn-container">
