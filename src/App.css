@@ -34,7 +34,6 @@ p {
   color: #555;
   font-size:2.5em;
   font-weight: 400;
-  padding: 0em 4em 0em 4em;
 }
 
 h1 {
@@ -229,8 +228,16 @@ a {
 /*# # # # # # # # ABOUT # # # # # # # # */
 
 #about{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: #fff;
   height:100vh;
+}
+
+#about div{
+  padding: 2em;
 }
 
 #laptop {
@@ -277,7 +284,6 @@ padding-bottom: 1em;
 }
 
 .project p{
-  padding:0ch;
   font-size: 1.75em;
 }
 
@@ -293,7 +299,7 @@ padding-bottom: 1em;
 }
 
 .project-img{
-  background-image: url("src/img/montobbio-design2.png");
+  background-image: url("/public/montobbio-design2.png");
   background-size: contain;
   background-repeat: no-repeat;
   width: 90vw;
