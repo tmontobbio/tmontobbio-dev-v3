@@ -272,8 +272,13 @@ padding-bottom: 1em;
 }
 
 .project h5{
-  font-size:4ch;
+  font-size:3em;
   padding-left:0ch;
+}
+
+.project p{
+  padding:0ch;
+  font-size: 1.75em;
 }
 
 .project{
@@ -281,10 +286,10 @@ padding-bottom: 1em;
   flex-direction: column;
   background-color: #fff;
   width:90vw;
-  padding:3ch;
-  margin-top: 5ch;
-  margin-bottom: 5ch;
-  box-shadow: 1ch 1ch 1ch 1ch rgb(175, 175, 175);
+  padding:2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  box-shadow: .75em .75em .75em .75em rgb(175, 175, 175);
 }
 
 .project-img{
@@ -301,9 +306,6 @@ padding-bottom: 1em;
   align-items: center;
 }
 
-.description h5{
-  float:left;
-}
 
 /*# # # # # # # # Contact # # # # # # # # */
 
