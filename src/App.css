@@ -200,6 +200,7 @@ a {
 
 #greeting-text {
   text-align: center;
+  max-width: 90vw;
 }
 
 #greeting-text h1 {
@@ -233,7 +234,7 @@ a {
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  height:100vh;
+  height:130vh;
 }
 
 #about div{
@@ -318,6 +319,10 @@ padding-bottom: 1em;
 
 
 /*# # # # # # # # Contact # # # # # # # # */
+
+#contact{
+  padding: 2em 0em 2em 0em;
+}
 
 #contact-title h3{
   padding-left:1em;
