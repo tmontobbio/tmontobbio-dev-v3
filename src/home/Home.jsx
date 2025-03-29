@@ -1,13 +1,13 @@
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi"
 
-import JavaScript from "/home/tyler/code/tmontobbio-dev-v3/public/javascript.svg?react";
-import React from "/home/tyler/code/tmontobbio-dev-v3/public/react.svg?react";
-import Redux from "/home/tyler/code/tmontobbio-dev-v3/public/redux.svg?react";
-import NodeJS from "/home/tyler/code/tmontobbio-dev-v3/public/nodejs.svg?react";
-import Ruby from "/home/tyler/code/tmontobbio-dev-v3/public/ruby.svg?react";
-import Rails from "/home/tyler/code/tmontobbio-dev-v3/public/rails.svg?react";
-import PostGreSQL from "/home/tyler/code/tmontobbio-dev-v3/public/postgresql.svg?react";
+import JavaScript from "../img/javascript.svg?react";
+import React from "../img/react.svg?react";
+import Redux from "../img/redux.svg?react";
+import NodeJS from "../img/nodejs.svg?react";
+import Ruby from "../img/ruby.svg?react";
+import Rails from "../img/rails.svg?react";
+import PostGreSQL from "../img/postgresql.svg?react";
 
 import "../App.css"
 
