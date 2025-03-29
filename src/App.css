@@ -292,17 +292,18 @@ a {
 }
 
 .project-img{
-  background-image: url("/public/montobbio-design2.png");
+  background-image: url("/public/tyler.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  width: 90vw;
-  height: 90vw;
+  border-radius: 15%;
+  width: 80vw;
+  height: 80vw;
 }
 
 /*# # # # # # # # Contact # # # # # # # # */
 
 #contact{
-  padding: 2em 0em 2em 0em;
+  padding: 5em 0em 5em 0em;
 }
 
 #contact-title h3{
@@ -316,7 +317,6 @@ a {
 #contact-icons{
 flex-direction: row;
 justify-content: space-around;
-padding: 2em 0em 2em 0em;
 width:100vw
 }
 
