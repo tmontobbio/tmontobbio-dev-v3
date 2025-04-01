@@ -10,8 +10,11 @@ html,
 body {
   width: 100vw;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  /* display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex; */
+    display: flex;
   background-color: rgb(255, 255, 255);
   scroll-behavior: smooth;
 }
@@ -50,10 +53,9 @@ h1 {
 }
 
 h3 {
-  font-size: 4em;
+  font-size: 3ch;
   color: #147efb;
   font-weight: 700;
-  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
@@ -326,4 +328,43 @@ a {
 .icon {
   width: 10ch;
   height: 10ch;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+
+  /*//////// NAV ///////////*/
+
+  #nav{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #nav h3 {
+      display:flex;
+    }
+
+  .btn-wrapper{
+      flex-direction: row;
+      gap:2ch;
+  }
+
+  #nav h1{
+    font-size: 5ch;
+  }
+
+  #nav h3{
+    font-size: 2ch;
+  }
+ /*//////// HOME ///////////*/
+
+
+
+
+
 }
