@@ -336,7 +336,11 @@ a {
 
 
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1441px) {
+
+.container {
+    flex-direction: row;
+  }
 
   /*//////// NAV ///////////*/
 
@@ -363,7 +367,93 @@ a {
   }
  /*//////// HOME ///////////*/
 
+ #home {
+   background-color: #f9f9f9;
+   gap: 4ch;
+   height:100vh;
+ }
 
+ #greeting-img {
+   border: .4em solid #2d2e32;
+   animation: 15s blob infinite;
+   background-image: url("/tyler.jpg");
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 35vw;
+   height: 35vw;
+ }
+
+ #greeting-text {
+   text-align: center;
+   max-width: 40vw;
+ }
+
+ #greeting-text h1 {
+   font-size: 4em;
+   font-weight: 800;
+   line-height: 1em;
+ }
+
+ #home-wrap{
+  display: flex;
+  flex-direction: column;
+  gap:1ch;
+ }
+
+ .btn-container {
+   flex-direction: row;
+   padding: .5em 0em .5em 0em;
+   gap: .5em;
+ }
+
+ .icon {
+   height: 3em;
+   width: 3em;
+ }
+
+ .tech-stack-header {
+   display: none;
+ }
+
+ #home h1{
+  font-size: 7ch;
+ }
+
+
+ /*//////// ABOUT ///////////*/
+
+#about {
+  background-color: #fff;
+  height: 100vh;
+}
+
+#about div {
+  padding: 2em;
+}
+
+#laptop {
+  align-items: flex-end;
+  background-image: url("/laptop2.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 3em 0em 3em 0em;
+  width: 90vw;
+  height: 90vw;
+}
+
+#about-txt {
+  width: 90vw;
+}
+
+#about-txt h4 {
+  padding-bottom: .25em;
+}
+
+#web-dev {
+  animation: 10s rotate linear infinite;
+  width: 13em;
+  height: 13em;
+}
 
 
 
