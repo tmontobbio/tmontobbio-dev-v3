@@ -423,12 +423,9 @@ a {
  /*//////// ABOUT ///////////*/
 
 #about {
+  flex-direction: row;
   background-color: #fff;
   height: 100vh;
-}
-
-#about div {
-  padding: 2em;
 }
 
 #laptop {
@@ -436,7 +433,6 @@ a {
   background-image: url("/laptop2.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  margin: 3em 0em 3em 0em;
   width: 90vw;
   height: 90vw;
 }
