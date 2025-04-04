@@ -7,7 +7,7 @@ export default function Nav() {
                 <h1>tmontobbio.dev</h1>
             </div>
             <div className="btn-wrapper">
-                <a href="#top">
+                <a href="#home">
                     <h3 className="nav-btn btn">Home</h3>
                 </a>
                 <a href="#about">

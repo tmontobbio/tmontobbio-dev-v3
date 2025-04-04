@@ -423,22 +423,24 @@ a {
  /*//////// ABOUT ///////////*/
 
 #about {
-  flex-direction: row;
+  flex-direction: column;
   background-color: #fff;
   height: 100vh;
 }
 
+#about-content{
+  flex-direction: row;
+  gap:2em;
+}
+
 #laptop {
-  align-items: flex-end;
-  background-image: url("/laptop2.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  width: 90vw;
-  height: 90vw;
+  width: 30vw;
+  height: 30vw;
 }
 
 #about-txt {
-  width: 90vw;
+  width: 30vw;
+  font-size: .6em;
 }
 
 #about-txt h4 {
