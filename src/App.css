@@ -492,14 +492,19 @@ font-size: 1.5em;
 }
 
 .project {
-  flex-direction: row !important;
+  flex-direction: row ;
   width: 90vw;
-  height:30vw;
+  height:20vw;
   gap: 2em;
   padding: 2em;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  box-shadow: .75em .75em .75em .75em rgb(175, 175, 175);
+  margin-top: 1em;
+  margin-bottom: 2em;
+  box-shadow: .3em .3em .3em .3em rgb(175, 175, 175);
+}
+
+.odd{
+  flex-direction: row-reverse;
+  text-align: left;
 }
 
 .project-img {
@@ -507,12 +512,42 @@ font-size: 1.5em;
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 15%;
-  width: 25vw;
-  height: 25vw;
+  width: 15vw;
+  height: 15vw;
 }
 
 .description{
   gap:1em;
+}
+
+
+/*//////// PROJECTS ///////////*/
+
+
+#contact {
+  padding: 3em 0em 3em 0em;
+}
+
+#contact-title h3 {
+  padding-left: 0em
+}
+
+#contact-title h4 {
+  padding: 0em;
+  margin:0;
+}
+
+.icon-box {
+  min-width: 40vw;
+}
+
+.icon-box p {
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 4em;
+  height: 4em;
 }
 
 }
