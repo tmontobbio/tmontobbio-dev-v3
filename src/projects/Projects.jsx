@@ -25,7 +25,7 @@ export default function Projects() {
                 })
             } */}
 
-            <h3>PORTFOLIO</h3>
+            <h3>PROJECTS</h3>
             <h4>Each of my projects showcases a different aspect of my abilities 🛠️</h4>
 
             <div className="project">

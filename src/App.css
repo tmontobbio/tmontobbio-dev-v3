@@ -433,12 +433,17 @@ a {
 #about {
   flex-direction: column;
   background-color: #fff;
-  height: 90vh;
+  height: 100vh;
+  margin-top: 3em;
 }
 
 #about-content{
   flex-direction: row;
   gap:2em;
+}
+
+#about h3{
+  font-size: 2.5em;
 }
 
 #laptop {
@@ -461,6 +466,53 @@ a {
   height: 13em;
 }
 
+/*//////// PROJECTS ///////////*/
 
+#projects {
+  background-color: #f9f9f9;
+  padding-top: 10em;
+  width:100vw;
+}
+
+#projects h3{
+font-size: 2.5em;
+}
+
+#projects h4{
+font-size: 1.5em;
+}
+
+.project h5 {
+  font-size: 3em;
+  padding-left: 0ch;
+}
+
+.project p {
+  font-size: 1.25em;
+}
+
+.project {
+  flex-direction: row !important;
+  width: 90vw;
+  height:30vw;
+  gap: 2em;
+  padding: 2em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  box-shadow: .75em .75em .75em .75em rgb(175, 175, 175);
+}
+
+.project-img {
+  background-image: url("/public/tyler.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15%;
+  width: 25vw;
+  height: 25vw;
+}
+
+.description{
+  gap:1em;
+}
 
 }
